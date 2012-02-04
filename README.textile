@@ -1,0 +1,8 @@
+> cd web-reorg
+> mvn clean install
+> cd apps/simple
+> mvn jetty:run
+
+http://localhost:8080/simple
+
+see browser console
