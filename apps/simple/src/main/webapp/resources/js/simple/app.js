@@ -14,7 +14,7 @@ define("simple/app", ['reorg/common/utilPlus', 'reorg/common/util', 'reorg/commo
             },
 
             generateBeans:function(count){
-                var types = ['person', 'car', 'music', 'food', 'sex'];
+                var types = ['type A', 'type B', 'type C', 'type D', 'type E'];
                 var beans = [];
                 for(var i=0;i<count;i++){
                     var bean = new Bean(i, types[util.randRange(1, types.length-1)]);
