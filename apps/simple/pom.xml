@@ -15,6 +15,13 @@
     <dependencies>
         <dependency>
             <groupId>sean</groupId>
+            <artifactId>web-reorg-overlays-qunit</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <type>war</type>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>sean</groupId>
             <artifactId>web-reorg-overlays-common</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <type>war</type>
@@ -43,6 +50,10 @@
                 <version>2.2</version>
                 <configuration>
                     <overlays>
+                        <overlay>
+                            <groupId>sean</groupId>
+                            <artifactId>web-reorg-overlays-qunit</artifactId>
+                        </overlay>
                         <overlay>
                             <groupId>sean</groupId>
                             <artifactId>web-reorg-overlays-common</artifactId>
